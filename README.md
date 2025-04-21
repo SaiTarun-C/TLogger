@@ -20,70 +20,120 @@ It is a C++ logging library designed to simplify logging for any project. It sup
 --------------------------------------------
 ############## Installation ################
 --------------------------------------------
-#Prerequisites
-Before using TLogger, you need to have the following installed:
+### Prerequisites
 
-C++ Compiler (GCC, MSVC, Clang)
-CMake (for building the project)
+Make sure the following tools are installed on your system:
 
-Building the Library
-#Clone the repository:
-git clone https://github.com/SaiTarun-C/TLogger.git
-cd TLogger
+- **C++ Compiler** (e.g., GCC, MSVC, Clang)
+- **CMake** (for building the project)
 
-#Create a build directory:
-mkdir build
-cd build
+### Building the Library
 
-#Run CMake to configure the project:
-cmake ..
+Follow these steps to build **TLogger**:
 
-#Build the project:
-cmake --build .
+1. **Clone the repository**:
+   Open a terminal and run the following command to clone the project to your local machine:
+   ```bash
+   git clone https://github.com/SaiTarun-C/TLogger.git
+   cd TLogger
+   ```
 
-This will generate the necessary binaries in the build folder.
+2. **Create a build directory**:
+   Create a directory where the build process will take place:
+   ```bash
+   mkdir build
+   cd build
+   ```
 
-Usage
-Integrating TLogger into Your Project
+3. **Run CMake to configure the project**:
+   CMake will generate the necessary build files:
+   ```bash
+   cmake ..
+   ```
 
-#Include the header file in your source code:
-#include "Logger.h"
+4. **Build the project**:
+   Build the project using the following command:
+   ```bash
+   cmake --build .
+   ```
 
-#Initialize the logger in your application:
-Logger logger("logfile.log", Logger::LogLevel::DEBUG);
+   This will compile the project and create the necessary binaries in the build folder.
 
-#Use the logger to log messages:
-logger.log(Logger::LogLevel::INFO, "This is an informational message.");
-logger.log(Logger::LogLevel::ERROR, "An error occurred.");
+---
 
-#To log function entries and exits:
-#define LOG_FUNC_ENTRY  // Will log function entry
-#define LOG_FUNC_EXIT   // Will log function exit
+## Usage
 
-void someFunction() {
-    LOG_FUNC_ENTRY;
-    // Function logic
-    LOG_FUNC_EXIT;
-}
+### Integrating TLogger into Your Project
 
-#Log Level Filtering
-You can filter log messages based on the log level. For example, you can set the logger to only log messages with a severity level of INFO or higher:
+1. **Include the header file** in your source code:
+   ```cpp
+   #include "Logger.h"
+   ```
+
+2. **Initialize the logger** in your application:
+   Create a logger instance and specify the log file name and the log level:
+   ```cpp
+   Logger logger("logfile.log", Logger::LogLevel::DEBUG);
+   ```
+
+3. **Use the logger to log messages**:
+   You can log messages at different levels, such as:
+   ```cpp
+   logger.log(Logger::LogLevel::INFO, "This is an informational message.");
+   logger.log(Logger::LogLevel::ERROR, "An error occurred.");
+   ```
+
+4. **Log function entries and exits**:
+   You can define macros to automatically log when entering or exiting a function:
+   ```cpp
+   #define LOG_FUNC_ENTRY  // Will log function entry
+   #define LOG_FUNC_EXIT   // Will log function exit
+
+   void someFunction() {
+       LOG_FUNC_ENTRY;
+       // Function logic
+       LOG_FUNC_EXIT;
+   }
+   ```
+
+### Log Level Filtering
+
+You can filter log messages based on their severity. For example, to only log `INFO` messages or higher:
+```cpp
 logger.setLogLevel(Logger::LogLevel::INFO);
+```
 
-#Remote Logging
-To enable remote logging, configure the logger with the server IP and port:
+### Remote Logging
+
+To enable remote logging, configure the logger with a remote server's IP and port:
+```cpp
 logger.setRemoteLogging("192.168.1.100", 12345);
-This will send the logs to the specified remote server.
+```
+This will send logs to the specified remote server. Ensure that the server is set up to receive and store the logs.
 
-#Contributing
-If you'd like to contribute to TLogger, feel free to fork the repository, make changes, and submit a pull request. All contributions are welcome!
+---
 
-Fork the repository
-Create a new branch (git checkout -b feature-name)
-Make your changes
-Commit your changes (git commit -am 'Add new feature')
-Push to the branch (git push origin feature-name)
-Create a new Pull Request
+## Contributing
 
-#License
-This project is licensed under the MIT License - see the LICENSE file for details.
+If you'd like to contribute to **TLogger**, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a **Pull Request** to merge your changes.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
