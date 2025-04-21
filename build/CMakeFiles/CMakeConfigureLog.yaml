@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       The system is: Windows - 10.0.22635 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 21-04-2025 18:14:36.
+      Build started 21-04-2025 21:33:37.
       
-      Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdC.tlog\\".
@@ -41,13 +41,13 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -55,13 +55,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.10
+      Time Elapsed 00:00:01.85
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -69,7 +69,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/4.0.0/CompilerIdC/CompilerIdC.exe
+        C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/4.0.0/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -77,7 +77,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -87,9 +87,9 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 21-04-2025 18:14:37.
+      Build started 21-04-2025 21:33:39.
       
-      Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdCXX.tlog\\".
@@ -104,13 +104,13 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' is not recognized as an internal or external command,
         operable program or batch file.
-        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
-        "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" exited with code 9009.
+        "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -118,13 +118,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\4.0.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.81
+      Time Elapsed 00:00:01.35
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -132,19 +132,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/4.0.0/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/4.0.0/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-77fl56"
-      binary: "C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-77fl56"
+      source: "C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-5vw4bi"
+      binary: "C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-5vw4bi"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -157,39 +157,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-77fl56'
+        Change Dir: 'C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-5vw4bi'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_91e3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ea442.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 21-04-2025 18:14:39.
+        Build started 21-04-2025 21:33:41.
         
-        Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77fl56\\cmTC_91e3f.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vw4bi\\cmTC_ea442.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_91e3f.dir\\Debug\\".
-          Creating directory "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77fl56\\Debug\\".
-          Creating directory "cmTC_91e3f.dir\\Debug\\cmTC_91e3f.tlog\\".
+          Creating directory "cmTC_ea442.dir\\Debug\\".
+          Creating directory "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vw4bi\\Debug\\".
+          Creating directory "cmTC_ea442.dir\\Debug\\cmTC_ea442.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_91e3f.dir\\Debug\\cmTC_91e3f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_91e3f.dir\\Debug\\cmTC_91e3f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ea442.dir\\Debug\\cmTC_ea442.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ea442.dir\\Debug\\cmTC_ea442.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91e3f.dir\\Debug\\\\" /Fd"cmTC_91e3f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea442.dir\\Debug\\\\" /Fd"cmTC_ea442.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91e3f.dir\\Debug\\\\" /Fd"cmTC_91e3f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea442.dir\\Debug\\\\" /Fd"cmTC_ea442.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77fl56\\Debug\\cmTC_91e3f.exe" /INCREMENTAL /ILK:"cmTC_91e3f.dir\\Debug\\cmTC_91e3f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-77fl56/Debug/cmTC_91e3f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-77fl56/Debug/cmTC_91e3f.lib" /MACHINE:X64  /machine:x64 cmTC_91e3f.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_91e3f.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77fl56\\Debug\\cmTC_91e3f.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vw4bi\\Debug\\cmTC_ea442.exe" /INCREMENTAL /ILK:"cmTC_ea442.dir\\Debug\\cmTC_ea442.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-5vw4bi/Debug/cmTC_ea442.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-5vw4bi/Debug/cmTC_ea442.lib" /MACHINE:X64  /machine:x64 cmTC_ea442.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ea442.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vw4bi\\Debug\\cmTC_ea442.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_91e3f.dir\\Debug\\cmTC_91e3f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_91e3f.dir\\Debug\\cmTC_91e3f.tlog\\cmTC_91e3f.lastbuildstate".
-        Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-77fl56\\cmTC_91e3f.vcxproj" (default targets).
+          Deleting file "cmTC_ea442.dir\\Debug\\cmTC_ea442.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ea442.dir\\Debug\\cmTC_ea442.tlog\\cmTC_ea442.lastbuildstate".
+        Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5vw4bi\\cmTC_ea442.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.48
+        Time Elapsed 00:00:00.79
         
       exitCode: 0
   -
@@ -197,7 +197,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -215,7 +215,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.37.32825.0
@@ -225,12 +225,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-00terx"
-      binary: "C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-00terx"
+      source: "C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-0a7pi8"
+      binary: "C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-0a7pi8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -244,39 +244,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-00terx'
+        Change Dir: 'C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-0a7pi8'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d90c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ad26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 21-04-2025 18:14:39.
+        Build started 21-04-2025 21:33:42.
         
-        Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00terx\\cmTC_d90c9.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0a7pi8\\cmTC_3ad26.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d90c9.dir\\Debug\\".
-          Creating directory "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00terx\\Debug\\".
-          Creating directory "cmTC_d90c9.dir\\Debug\\cmTC_d90c9.tlog\\".
+          Creating directory "cmTC_3ad26.dir\\Debug\\".
+          Creating directory "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0a7pi8\\Debug\\".
+          Creating directory "cmTC_3ad26.dir\\Debug\\cmTC_3ad26.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d90c9.dir\\Debug\\cmTC_d90c9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d90c9.dir\\Debug\\cmTC_d90c9.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3ad26.dir\\Debug\\cmTC_3ad26.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3ad26.dir\\Debug\\cmTC_3ad26.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d90c9.dir\\Debug\\\\" /Fd"cmTC_d90c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ad26.dir\\Debug\\\\" /Fd"cmTC_3ad26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d90c9.dir\\Debug\\\\" /Fd"cmTC_d90c9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ad26.dir\\Debug\\\\" /Fd"cmTC_3ad26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00terx\\Debug\\cmTC_d90c9.exe" /INCREMENTAL /ILK:"cmTC_d90c9.dir\\Debug\\cmTC_d90c9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-00terx/Debug/cmTC_d90c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/CMakeFiles/CMakeScratch/TryCompile-00terx/Debug/cmTC_d90c9.lib" /MACHINE:X64  /machine:x64 cmTC_d90c9.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_d90c9.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00terx\\Debug\\cmTC_d90c9.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0a7pi8\\Debug\\cmTC_3ad26.exe" /INCREMENTAL /ILK:"cmTC_3ad26.dir\\Debug\\cmTC_3ad26.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-0a7pi8/Debug/cmTC_3ad26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/CMakeFiles/CMakeScratch/TryCompile-0a7pi8/Debug/cmTC_3ad26.lib" /MACHINE:X64  /machine:x64 cmTC_3ad26.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_3ad26.vcxproj -> C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0a7pi8\\Debug\\cmTC_3ad26.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_d90c9.dir\\Debug\\cmTC_d90c9.tlog\\unsuccessfulbuild".
-          Touching "cmTC_d90c9.dir\\Debug\\cmTC_d90c9.tlog\\cmTC_d90c9.lastbuildstate".
-        Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\LoggerLib\\build\\CMakeFiles\\CMakeScratch\\TryCompile-00terx\\cmTC_d90c9.vcxproj" (default targets).
+          Deleting file "cmTC_3ad26.dir\\Debug\\cmTC_3ad26.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3ad26.dir\\Debug\\cmTC_3ad26.tlog\\cmTC_3ad26.lastbuildstate".
+        Done Building Project "C:\\Users\\saita\\Documents\\coding_practice\\cpp\\TLogger\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0a7pi8\\cmTC_3ad26.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.77
         
       exitCode: 0
   -
@@ -284,7 +284,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -302,7 +302,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.37.32825.0

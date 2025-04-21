@@ -1,6 +1,7 @@
 # TLogger
 A high-performance, cross-platform logging library
 
+
 # TLogger Library
 
 **TLogger** is a high-performance, cross-platform logging library that provides flexible, customizable, and secure logging features. It supports log rotation, encryption, asynchronous logging, and more.

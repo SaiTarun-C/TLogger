@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\main.cpp">
+    <ClCompile Include="C:\Users\saita\Documents\coding_practice\cpp\TLogger\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\src\Logger.cpp">
+    <ClCompile Include="C:\Users\saita\Documents\coding_practice\cpp\TLogger\src\Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\saita\Documents\coding_practice\cpp\TLogger\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{08A96262-B523-3F5A-92B4-7D171F08DAF3}</UniqueIdentifier>
+      <UniqueIdentifier>{0DD61625-4C84-3FE2-AAC8-55F89DD8D69F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

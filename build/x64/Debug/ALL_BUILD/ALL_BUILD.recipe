@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\saita\Documents\coding_practice\cpp\TLogger\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\build\Debug\logger_app.exe</FullPath>
+      <FullPath>C:\Users\saita\Documents\coding_practice\cpp\TLogger\build\Debug\logger_app.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\saita\Documents\coding_practice\cpp\TLogger\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

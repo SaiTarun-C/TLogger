@@ -1,6 +1,6 @@
-^C:\USERS\SAITA\DOCUMENTS\CODING_PRACTICE\CPP\LOGGERLIB\BUILD\CMAKEFILES\CE60996EADC4E5EDF2C8C26589575AC8\GENERATE.STAMP.RULE
+^C:\USERS\SAITA\DOCUMENTS\CODING_PRACTICE\CPP\TLOGGER\BUILD\CMAKEFILES\B6350C8135DA62DBEFDB987B69F94190\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/saita/Documents/coding_practice/cpp/LoggerLib -BC:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/saita/Documents/coding_practice/cpp/LoggerLib/build/LoggerLib.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/saita/Documents/coding_practice/cpp/TLogger -BC:/Users/saita/Documents/coding_practice/cpp/TLogger/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/saita/Documents/coding_practice/cpp/TLogger/build/LoggerLib.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
