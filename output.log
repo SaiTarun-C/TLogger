@@ -1,0 +1,8 @@
+[2025-04-21 16:17:42] [INFO] [main.cpp:6] Application started.
+[2025-04-21 16:17:42] [DEBUG] [main.cpp:7] Debugging values here.
+[2025-04-21 16:17:42] [WARNING] [main.cpp:8] Something might go wrong.
+[2025-04-21 16:17:42] [ERROR] [main.cpp:9] An error occurred!
+[2025-04-21 16:22:42] [INFO] [main.cpp:6] Application started.
+[2025-04-21 16:22:42] [DEBUG] [main.cpp:7] Debugging values here.
+[2025-04-21 16:22:42] [WARNING] [main.cpp:8] Something might go wrong.
+[2025-04-21 16:22:42] [ERROR] [main.cpp:9] An error occurred!

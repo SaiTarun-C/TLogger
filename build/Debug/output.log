@@ -1,0 +1,9 @@
+ÑˆŞÃÇÏÙŞËÇÚˆŠˆ˜š˜Ÿ‡š‡˜›Š›’˜šˆ†ŠˆÆÏÜÏÆˆŠˆîïèÿíˆ†ŠˆÌÃÆÏˆŠˆéöÿÙÏØÙöÙËÃŞËöîÅÉßÇÏÄŞÙöÉÅÎÃÄÍõÚØËÉŞÃÉÏöÉÚÚöæÅÍÍÏØæÃÈöÇËÃÄ„ÉÚÚˆ†ŠˆÆÃÄÏˆŠ›˜†ŠˆÇÏÙÙËÍÏˆŠˆîÏÈßÍÍÃÄÍŠÜËÆßÏÙŠÂÏØÏ„ˆ×
+0Yjew8fP2d7Lx9qIkIqImJqYn4eanoeYm4qbkpCYmZCbmIiGiojGz9zPxoiQioju7+j/7YiGiojMw8bPiJCKiOmQ9v/Zz9jZ9tnLw97L9u7Fyd/Hz8Te2fbJxc7DxM312tjLyd7Dyc/2ydra9ubFzc3P2ObDyPbHy8PEhMna2oiGiojGw8TPiJCKm5iGiojHz9nZy83PiJCKiO7PyN/NzcPEzYrcy8bfz9mKws/Yz4SI1w==
+0Yjew8fP2d7Lx9qIkIqImJqYn4eanoeYm4qbkpCYk5CYnIiGiojGz9zPxoiQioju7+j/7YiGiojMw8bPiJCKiOmQ9v/Zz9jZ9tnLw97L9u7Fyd/Hz8Te2fbJxc7DxM312tjLyd7Dyc/2ydra9ubFzc3P2ObDyPbHy8PEhMna2oiGiojGw8TPiJCKm5iGiojHz9nZy83PiJCKiO7PyN/NzcPEzYrcy8bfz9mKws/Yz4SI1w==
+Logging message to file...
+Log Level: DEBUG | File: C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\main.cpp | Line: 13
+Message: This is a debug message.
+[2025-04-21 18:43:52] [DEBUG] [C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\main.cpp:13] [Function: main] This is a debug message.
+[2025-04-21 18:55:13] [DEBUG] [C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\main.cpp:13] [Function: main] This is a debug message.
+[2025-04-21 19:01:47] [DEBUG] [C:\Users\saita\Documents\coding_practice\cpp\LoggerLib\main.cpp:13] [Function: main] This is a debug message.

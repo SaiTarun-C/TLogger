@@ -1,0 +1,8 @@
+[2025-04-21 16:12:50][INFO][main.cpp:6] This is an info message.
+[2025-04-21 16:12:50][WARNING][main.cpp:7] This is a warning.
+[2025-04-21 16:12:50][ERROR][main.cpp:8] An error occurred!
+[2025-04-21 16:12:50][DEBUG][main.cpp:9] Debugging something here...
+[2025-04-21 16:15:38][INFO][main.cpp:6] This is an info message.
+[2025-04-21 16:15:38][WARNING][main.cpp:7] This is a warning.
+[2025-04-21 16:15:38][ERROR][main.cpp:8] An error occurred!
+[2025-04-21 16:15:38][DEBUG][main.cpp:9] Debugging something here...
